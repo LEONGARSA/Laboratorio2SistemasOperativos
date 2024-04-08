@@ -57,5 +57,6 @@ public class MemoriaPrincipal {
 
     public void cargarDato(int valor) {
         acumulador = valor;
+        memoria[posicion] = valor;
     }
 }
